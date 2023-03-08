@@ -1,0 +1,157 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #FCB9B2;
+
+}
+
+.nombre .img{
+    position: absolute;
+    top: 18%;
+    right: 5%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    transform: skewY(5deg);
+    
+    
+
+}
+.name .img img{
+    width: 180px;
+    height: 180px;
+}
+
+.nombre{
+    width: 100%;
+    height: 300px;
+    background: #FED0BB;
+    transform: skewY(-5deg);
+}
+
+.nombre .contenido {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+
+}
+
+.nombre .contenido .p1 {
+    color:#B23A48 ;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    transform: skewY(5deg);
+    margin-bottom: 0;
+
+
+}
+
+.nombre .contenido .p2{
+    color:#B23A48 ;
+    font-family: 'Kanit', sans-serif;
+    font-size: 35px;
+    transform: skewY(5deg);
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.info{
+    width: 90%;
+    height: auto;
+    background: #FED0BB;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.info .titulorecuadro{
+    color:#B23A48;
+    font-family: 'Kanit', sans-serif;
+    font-size:xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px #B23A48 dashed;
+1}
+
+.info .tituloinfo{
+    color:#B23A48;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+
+
+}
+
+.info .informacion {
+        color: #B23A48;
+        font-family: 'Kanit', sans-serif;
+        font-weight:normal;
+        font-size: large;
+        display: inline;
+    
+}
+
+
+.leer-mas {
+    display: block;
+    opacity: 0;
+    max-height: 0;
+    transition: all 0.5s;
+}
+
+.leer-mas_open {
+    display: block;
+    opacity: 1;
+    max-height: 500px;
+}
+
+
+.contenedor {
+    padding: 0.25rem;
+}
+
+.titulo {
+     font-family: 'Kanit', sans-serif;
+     font-size: xx-large;
+     text-align: center;
+     font-weight: bolder;
+     color: #B23A48;
+     border-bottom: 2px #B23A48 dashed;
+
+
+}
+
+p {
+     font-family: 'Kanit', sans-serif;
+     font-size: xx-large;
+     text-align: center;
+     font-weight: bolder;
+     color: #B23A48;
+     
+}
+
+.boton {
+    display:inline;
+    color:#FCB9B2;
+    background-color:#B23A48;
+    padding:1px;
+    font-size:medium;
+    position:absolute;
+    z-index: 1;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+
+
+
+
